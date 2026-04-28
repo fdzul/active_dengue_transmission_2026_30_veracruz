@@ -362,7 +362,7 @@ z |>
 
 ```{r chains_tuxpan,echo=FALSE}
 z |>
-    dplyr::filter(IDE_EDA_ANO <= 12 | IDE_EDA_ANO >= 65) |>
+    #dplyr::filter(IDE_EDA_ANO <= 12 | IDE_EDA_ANO >= 65) |>
     dplyr::mutate(onset = FEC_INI_SIGNOS_SINT) |>
     dplyr::select(ANO, long, lat, onset) |>
     dplyr::mutate(x = long,
