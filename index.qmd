@@ -111,7 +111,7 @@ source("~/Library/CloudStorage/Dropbox/r_developments/r_dashboards/netlify/1.2.p
 ::::::::::::::::::::: responsive-grid
 
 <div class="columna">
-<div class="column-header"> Distirbución de Casos </div>
+<div class="column-header"> Distribución de Casos </div>
 
 ::: grid-card
 
